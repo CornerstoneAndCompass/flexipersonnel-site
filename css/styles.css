@@ -865,7 +865,9 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
 .footer__brand-name img {
   height: 44px;
   width: auto;
-  filter: brightness(0) invert(1);
+  background: white;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
 }
 
 .footer__brand p {
