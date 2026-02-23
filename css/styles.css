@@ -28,6 +28,10 @@
   --color-accent: #D93636;          /* Refined red (from #cf2e2e) */
   --color-accent-light: #FEF2F2;
 
+  --color-orange: #EC8922;           /* Brand orange accent */
+  --color-orange-dark: #D47710;
+  --color-orange-light: #FEF3E2;
+
   --color-warning: #F59E0B;
 
   /* Typography */
@@ -220,6 +224,12 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
   letter-spacing: var(--tracking-tight);
 }
 
+.nav__logo img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
 .nav__logo-icon {
   width: 40px;
   height: 40px;
@@ -376,6 +386,16 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
 .btn--outline:hover {
   background: var(--color-primary);
   color: white;
+  transform: translateY(-1px);
+}
+
+.btn--orange {
+  background: var(--color-orange);
+  color: white;
+}
+
+.btn--orange:hover {
+  background: var(--color-orange-dark);
   transform: translateY(-1px);
 }
 
@@ -541,7 +561,7 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
   max-width: 700px;
 }
 
-.hero__title span { color: var(--color-secondary); }
+.hero__title span { color: var(--color-orange); }
 
 .hero__subtitle {
   font-size: var(--text-lg);
@@ -611,7 +631,7 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
 .stat__number {
   font-size: var(--text-4xl);
   font-weight: 800;
-  color: var(--color-primary);
+  color: var(--color-orange);
   letter-spacing: var(--tracking-tight);
 }
 
@@ -759,6 +779,7 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
 
 .tag--blue { background: var(--color-primary-light); color: var(--color-primary); }
 .tag--green { background: var(--color-secondary-light); color: var(--color-secondary-dark); }
+.tag--orange { background: var(--color-orange-light); color: var(--color-orange-dark); }
 
 .job-card__meta {
   display: flex;
@@ -839,6 +860,12 @@ p { line-height: var(--leading-normal); color: var(--color-dark-500); }
   align-items: center;
   gap: var(--space-3);
   margin-bottom: var(--space-4);
+}
+
+.footer__brand-name img {
+  height: 44px;
+  width: auto;
+  filter: brightness(0) invert(1);
 }
 
 .footer__brand p {
