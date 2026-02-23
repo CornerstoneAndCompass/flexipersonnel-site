@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Flexi Personnel</title>
+  <meta name="description" content="Get in touch with Flexi Personnel. Call, email, or fill out our contact form.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-icon">F</div>
+        Flexi Personnel
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="hr-consulting.html" class="nav__link">HR Consulting</a>
+        <a href="employers.html" class="nav__link">For Employers</a>
+        <a href="jobs.html" class="nav__link">Job Seekers</a>
+        <a href="about.html" class="nav__link">About</a>
+      </div>
+      <div class="nav__actions">
+        <a href="contact.html" class="btn btn--primary active">Get in Touch</a>
+      </div>
+      <button class="nav__toggle" aria-label="Menu"><span></span></button>
+    </div>
+    <div class="nav__mobile">
+      <a href="index.html">Home</a>
+      <a href="services.html">Recruitment Services</a>
+      <a href="hr-consulting.html">HR Consulting</a>
+      <a href="employers.html">For Employers</a>
+      <a href="jobs.html">Job Seekers</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="hero hero--page">
+    <div class="container hero__content" style="padding-top:var(--space-16);padding-bottom:var(--space-16);">
+      <div class="hero__eyebrow">
+        <span style="width:8px;height:8px;background:var(--color-secondary);border-radius:50%;display:inline-block;"></span>
+        Contact Us
+      </div>
+      <h1 class="hero__title" style="font-size:clamp(2rem, 4vw, 3.2rem);">Let's start a conversation</h1>
+      <p class="hero__subtitle">Whether you're looking to hire, looking for work, or need HR advice — we're here to help.</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="section">
+    <div class="container">
+      <div class="service-detail reveal">
+        <!-- Form -->
+        <div>
+          <h3 style="margin-bottom:var(--space-6);">Send us a message</h3>
+          <form data-demo>
+            <div class="grid grid--2" style="gap:var(--space-4);">
+              <div class="form-group">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-input" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-input" placeholder="Smith" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-input" placeholder="john@company.com.au" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone</label>
+              <input type="tel" class="form-input" placeholder="(03) XXXX XXXX">
+            </div>
+            <div class="form-group">
+              <label class="form-label">I'm looking to...</label>
+              <select class="form-input">
+                <option value="">Select an option</option>
+                <option value="hire">Hire staff for my business</option>
+                <option value="work">Find work / submit my resume</option>
+                <option value="hr">Get HR consulting advice</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-input form-textarea" placeholder="Tell us a bit about what you need..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg w-full">Send Message &#8594;</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <div style="background:var(--color-light-100);border-radius:var(--radius-xl);padding:var(--space-8);margin-bottom:var(--space-6);">
+            <h4 style="margin-bottom:var(--space-5);">Contact Details</h4>
+            <div style="display:flex;flex-direction:column;gap:var(--space-5);">
+              <div style="display:flex;align-items:flex-start;gap:var(--space-4);">
+                <div style="width:40px;height:40px;min-width:40px;background:var(--color-primary-light);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">&#128222;</div>
+                <div>
+                  <div style="font-weight:600;font-size:var(--text-sm);margin-bottom:var(--space-1);">Phone</div>
+                  <a href="tel:0393609722" style="color:var(--color-primary);font-weight:600;">(03) 9360 9722</a>
+                </div>
+              </div>
+              <div style="display:flex;align-items:flex-start;gap:var(--space-4);">
+                <div style="width:40px;height:40px;min-width:40px;background:var(--color-secondary-light);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">&#9993;&#65039;</div>
+                <div>
+                  <div style="font-weight:600;font-size:var(--text-sm);margin-bottom:var(--space-1);">Email</div>
+                  <a href="mailto:info@flexipersonnel.com.au" style="color:var(--color-primary);font-weight:600;">info@flexipersonnel.com.au</a>
+                </div>
+              </div>
+              <div style="display:flex;align-items:flex-start;gap:var(--space-4);">
+                <div style="width:40px;height:40px;min-width:40px;background:#FEF3C7;border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">&#128205;</div>
+                <div>
+                  <div style="font-weight:600;font-size:var(--text-sm);margin-bottom:var(--space-1);">Location</div>
+                  <p style="color:var(--color-dark-400);font-size:var(--text-sm);">Melbourne, Victoria<br>Northern &amp; Western Suburbs</p>
+                </div>
+              </div>
+              <div style="display:flex;align-items:flex-start;gap:var(--space-4);">
+                <div style="width:40px;height:40px;min-width:40px;background:var(--color-light-200);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">&#128337;</div>
+                <div>
+                  <div style="font-weight:600;font-size:var(--text-sm);margin-bottom:var(--space-1);">Business Hours</div>
+                  <p style="color:var(--color-dark-400);font-size:var(--text-sm);">Monday – Friday<br>8:30am – 5:30pm AEST</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background:var(--color-dark);border-radius:var(--radius-xl);padding:var(--space-8);color:white;">
+            <h4 style="color:white;margin-bottom:var(--space-3);">Quick response guarantee</h4>
+            <p style="color:rgba(255,255,255,0.7);font-size:var(--text-sm);line-height:var(--leading-normal);">We aim to respond to all enquiries within 2 business hours. For urgent staffing needs, call us directly and we'll get working on it immediately.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-name">
+            <div class="nav__logo-icon" style="width:36px;height:36px;font-size:var(--text-base);">F</div>
+            Flexi Personnel
+          </div>
+          <p>Melbourne's trusted recruitment and HR consulting partner. Family-owned, industry-focused, committed to finding your best.</p>
+        </div>
+        <div>
+          <div class="footer__heading">Services</div>
+          <a href="services.html" class="footer__link">Permanent Recruitment</a>
+          <a href="services.html" class="footer__link">Temporary Staffing</a>
+          <a href="services.html" class="footer__link">Labour Hire</a>
+          <a href="services.html" class="footer__link">RPO</a>
+          <a href="hr-consulting.html" class="footer__link">HR Consulting</a>
+        </div>
+        <div>
+          <div class="footer__heading">Company</div>
+          <a href="about.html" class="footer__link">About Us</a>
+          <a href="employers.html" class="footer__link">For Employers</a>
+          <a href="jobs.html" class="footer__link">Job Seekers</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <a href="tel:0393609722" class="footer__link">(03) 9360 9722</a>
+          <a href="mailto:info@flexipersonnel.com.au" class="footer__link">info@flexipersonnel.com.au</a>
+          <a href="contact.html" class="footer__link">Melbourne, VIC</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Flexi Personnel. All rights reserved.</span>
+        <div class="footer__socials">
+          <a href="#" class="footer__social" aria-label="LinkedIn">in</a>
+          <a href="#" class="footer__social" aria-label="Facebook">f</a>
+          <a href="#" class="footer__social" aria-label="Twitter">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
